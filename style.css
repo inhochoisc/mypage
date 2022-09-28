@@ -1,0 +1,71 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+    * {
+      font-family: "Pretendard", serif;
+    }
+
+    body {
+      background-color: black;
+    }
+
+    .wrap {
+      width: 300px;
+      margin: 30px auto auto;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+    }
+
+    .profile {
+      width: 100px;
+      height: 100px;
+      border-radius: 100%;
+      border: 2px solid #a98467;
+      background-image: url('images/choiinByML.jpg');
+      background-position: center;
+      background-size: cover;
+    }
+
+    .main {
+      color: white;
+      font-size: 2em;
+      margin-top: 30px;
+      margin-bottom: 10px;
+    }
+
+    .sub {
+      color: white;
+      font-size: 1.3em;
+      margin-top: 0px;
+      margin-bottom: 30px;
+    }
+
+    .wrap>a {
+      width: 300px;
+      height: 50px;
+
+      background-color: white;
+      border-radius: 8px;
+
+      margin-bottom: 10px;
+
+      font-size: 1.3em;
+      font-weight: bold;
+      color: black;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      text-decoration: none;
+
+      box-shadow: 3px 3px 5px 0px #f0ead2;
+    }
+
+    .wrap>a:hover {
+      background-color: #adc178;
+    }
